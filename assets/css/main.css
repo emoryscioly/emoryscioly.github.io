@@ -3339,3 +3339,38 @@ input, select, textarea {
 			}
 
 	}
+
+	.button-container {
+		text-align: center; /* Center the buttons if desired */
+	}
+	
+	.button {
+		display: inline-block; /* This makes the buttons sit in a row */
+		margin: 5px; /* Adds some space around each button */
+		padding: 10px 20px; /* Adjust padding to your liking */
+		background-color: #9370DB; /* Button background color */
+		color: white; /* Text color */
+		text-decoration: none; /* Removes underline from links */
+		border-radius: 5px; /* Optional: for rounded corners */
+	}
+
+	div.gallery {
+		margin: 5px;
+		border: 1px solid #ccc;
+		float: left;
+		width: 250px;
+	  }
+	  
+	  div.gallery:hover {
+		border: 1px solid #777;
+	  }
+	  
+	  div.gallery img {
+		width: 100%;
+		height: auto;
+	  }
+	  
+	  div.desc {
+		padding: 15px;
+		text-align: center;
+	  }
